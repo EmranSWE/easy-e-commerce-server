@@ -54,7 +54,7 @@ async function run() {
             res.send(products)
         });
 
-        app.get('/testing',(req,res)=>{
+        app.get('/test',(req,res)=>{
             res.send('test the server')
         })
     }  
