@@ -52,6 +52,10 @@ async function run() {
             const products = await cursor.toArray();
             console.log(keys)
             res.send(products)
+        });
+
+        app.get('/testing',(req,res)=>{
+            res.send('test the server')
         })
     }  
     finally{
